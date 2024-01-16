@@ -1,0 +1,76 @@
+site_name: Cody Paternostro
+repo_url: https://github.com/codypaternostro/codypaternostro.github.io/
+site_description: "The personal blog of Cody Paternostro."
+site_dir: Output/
+repo_name:  codypaternostro/codypaternostro.github.io
+edit_uri: edit/main/docs/
+docs_dir: docs
+copyright: |
+  Copyright &copy; 2023 <a href="https://github.com/codypaternostro/codypaternostro.github.io"  target="_blank" rel="noopener">Cody Paternostro. All rights reserved.</a>
+
+nav:
+  - Home: index.md
+  - Cody Paternostro's Blog:
+    - Blog Home: blog/index.md
+    - ASIC Heating: blog/posts/ASIC Heating/ASIC Heating.md
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: blue grey
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: black
+      accent: lime
+  icon:
+  repo: fontawesome/brands/git-alt
+
+plugins:
+  - search
+  - blog
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/codypaternostro
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/cody-paternostro-4484b221b/
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
