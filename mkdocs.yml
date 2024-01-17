@@ -12,7 +12,7 @@ nav:
   - Home: index.md
   - Cody Paternostro's Blog:
     - Blog Home: blog/index.md
-    - ASIC Heating: blog/posts/ASIC Heating/ASIC Heating.md
+    - ASIC Heating: blog/posts/ASIC Heating.md
 
 theme:
   name: material
