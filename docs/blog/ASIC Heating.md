@@ -11,7 +11,8 @@ This post will document the process involved in planning, setup, and managing an
 7. [Future Considerations](#future-considerations)
 
 ## Introduction 
-Welcome to my guide on Markdown...
+![Silencing Kit Installation](images/introduction.png)
+I decided to document the silencing kit installation by recording the process!
 
 ## Power Plan
 
