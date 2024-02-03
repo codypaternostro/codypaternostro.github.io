@@ -11,8 +11,9 @@ This post will document the process involved in planning, setup, and managing an
 7. [Future Considerations](#future-considerations)
 
 ## Introduction 
-![Silencing Kit Installation](codypaternostro.github.io\docs\blog\introduction.jpg)
+![Silencing Kit Installation](https://youtu.be/tIneY9daxnw?si=ualFuQoHbqlXtb2A)
 I decided to document the silencing kit installation by recording the process!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tIneY9daxnw?si=xXTt_P2DcuZ7qO-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Power Plan
 
