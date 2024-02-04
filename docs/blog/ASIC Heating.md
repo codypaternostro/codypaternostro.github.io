@@ -63,10 +63,10 @@ For those looking to download the latest firmware, please use the link below:
 2. Corrections for some common bugs.
 
 
-### Installation of Silencing Kit
+## Installation of Silencing Kit
 
-### Remote Power Switch
+## Remote Power Switch
 
-### Managing Heat
+## Managing Heat
 
-### Future Considerations
+## Future Considerations
