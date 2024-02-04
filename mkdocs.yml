@@ -29,18 +29,18 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
+    - scheme: slate  
+      primary: indigo
+      accent: purple
       toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - scheme: default  
       primary: blue grey
-      accent: purple 
-    - scheme: slate 
+      accent: purple
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: black
-      accent: lime
+        name: Switch to dark mode
   icon:
   repo: fontawesome/brands/git-alt
 
