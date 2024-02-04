@@ -22,7 +22,7 @@ This post will document the process involved in planning, setup, and managing an
 [Silencing Kit Installation](https://youtu.be/tIneY9daxnw?si=ualFuQoHbqlXtb2A)
 I decided to document the silencing kit installation by recording the process. 
 Feel free to comment to on anything provided in this blog at the bottom of the page!
-<img src="introduction.jpg" alt="Video Edit Visual" width="500" height="auto">
+![PDU Picture](introduction.jpg)
 
 ## Power Plan
 ### Single-Phase 240 Volt 50 Amp Circuit
@@ -33,7 +33,7 @@ Typically, in industrial data centers, the standard cut-off is at 30 amps. This 
 
 When devising a power plan with a specific budget in mind for a facility, it's common practice to assess how many devices can be supported by a 30 amp supply and to restrict those devices to that particular circuit. Should there be a requirement for additional power, it's advisable to allocate another dedicated circuit with its own breaker. This approach forms the basis of the power planning strategy.
 
-<img src="pdu.jpg" alt="PDU Installed Visual" width="500" height="auto">
+![PDU Picture](pdu.jpg)
 
 ### Power Infrastructure - Products Used 
 
