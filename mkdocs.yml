@@ -11,7 +11,7 @@ copyright: |
 nav:
   - Home: index.md
   - Cody Paternostro's Blog:
-    - Blog Home: blog/index.md
+#    - Blog Home: blog/index.md
     - ASIC Heating: blog/ASIC Heating.md
 
 theme:
