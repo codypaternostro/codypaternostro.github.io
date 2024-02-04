@@ -10,7 +10,7 @@ This post will document the process involved in planning, setup, and managing an
 6. [Managing Heat](#managing-heat)
 7. [Future Considerations](#future-considerations)
 
-### *Introduction* 
+### Introduction 
 [Silencing Kit Installation](https://youtu.be/tIneY9daxnw?si=ualFuQoHbqlXtb2A)
 #![Thumbnail](introduction.jpg)
 I decided to document the silencing kit installation by recording the process!
