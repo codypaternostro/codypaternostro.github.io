@@ -30,7 +30,7 @@ theme:
   language: en
   palette:
     - scheme: slate  
-      primary: indigo
+      primary: black
       accent: purple
       toggle:
         icon: material/toggle-switch-off-outline
