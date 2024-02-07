@@ -47,6 +47,12 @@ theme:
 plugins:
   - search
   - blog
+  - resize-images:
+      source-dir: assets-large
+      target-dir: assets
+      enable_cache: True
+      size: [1200, 600]
+      extensions: ['.jpg', '.jpeg', '.png', '.gif', '.svg']
 
 extra:
   social:
