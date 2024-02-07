@@ -119,6 +119,10 @@ I did purchase an antenna to incorporate into the box. You will have to solder o
 
 - <a target="_blank" href="https://www.amazon.com/gp/product/B00TI1XBOE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;th=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=323e957a2d4e2c6ef8eb0673de76a9b7&camp=1789&creative=9325">Dual Band WiFi 2-4GHz 5GHz Male Antenna for WiFi Router</a>
 
+Simply used lamp wire and plug to power the SONOFF relay
+
+![Lamp-Wire-Plug](assets\lampwire.jpg)
+
 ### Electrical Box
 
 To house the components and ensure their safe operation, a custom electrical box was designed. This box not only protects the components but also integrates a dual-band WiFi antenna, enhancing the system's connectivity. The inclusion of the antenna required some modification to the SONOFF Basic R2, namely soldering the antenna onto the device for improved signal reception.
