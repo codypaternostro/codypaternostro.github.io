@@ -40,7 +40,7 @@ Typically, in industrial data centers, the standard cut-off is at 30 amps. This 
 
 When devising a power plan with a specific budget in mind for a facility, it's common practice to assess how many devices can be supported by a 30 amp supply and to restrict those devices to that particular circuit. Should there be a requirement for additional power, it's advisable to allocate another dedicated circuit with its own breaker. This approach forms the basis of the power planning strategy.
 
-![Picture-PDU](assets\pdu.jpg)
+![Picture-PDU](assets/pdu.jpg)
 
 ### Power Infrastructure - Products Used 
 
@@ -74,7 +74,7 @@ For those looking to download the latest firmware, please use the link below:
 
 ## Remote Power Switch
 
-![Smart-Switch](assets\smartswitchbox.jpg)
+![Smart-Switch](assets/smartswitchbox.jpg)
 
 ### Why Use A Smart Switch?
 
@@ -91,7 +91,7 @@ The heart of the custom switch is a contactor, specifically chosen for its capab
 
 - [Schneider Electric LAD6K10 Latch Block Product Data Sheet](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=151217401A55.pdf&p_Doc_Ref=1512174_01A55)
 
-![SE-Contactor](assets\contactor.jpg)
+![SE-Contactor](assets/contactor.jpg)
 
 It's important to know the difference between Definite Purpose and General Purpose contactors. C3controls does a fantastic job explaining the difference between the two. Since I was looking for something robust and wasn’t designed for a specific application, one that was not meant to last as long ideally. 
 
@@ -99,7 +99,7 @@ It's important to know the difference between Definite Purpose and General Purpo
 
 Deciding to construct a custom switch suitable for a 240 volt 50 amp circuit involved significant research. I was drawn to Schneider Electric's products for their reliability and quality. A notable obstacle encountered was the need for a contactor capable of functioning in a single-phase system, rather than the more commonly designed multi-phase systems. Schneider Electric provided a valuable diagram that illustrates how to correctly wire their contactor for single-phase power supply, ensuring the project's success.
 
-![Schenider-Electric-Diagram](assets\servlet.png)
+![Schenider-Electric-Diagram](assets/servlet.png)
 
 - [Single-Phase Wiring on Multi-Phase Contactor](https://www.se.com/th/en/faqs/FA339640/)
 
@@ -115,13 +115,13 @@ For remote control capabilities, the SONOFF Basic R2 was chosen for its compatib
 
 I did purchase an antenna to incorporate into the box. You will have to solder on the antenna for this model, but it was possible. 
 
-![Soldering-Antenna](assets\sonoff-antenna.jpg)
+![Soldering-Antenna](assets/sonoff-antenna.jpg)
 
 - <a target="_blank" href="https://www.amazon.com/gp/product/B00TI1XBOE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;th=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=323e957a2d4e2c6ef8eb0673de76a9b7&camp=1789&creative=9325">Dual Band WiFi 2-4GHz 5GHz Male Antenna for WiFi Router</a>
 
 Simply used lamp wire and plug to power the SONOFF relay
 
-![Lamp-Wire-Plug](assets\lampwire.jpg)
+![Lamp-Wire-Plug](assets/lampwire.jpg)
 
 ### Electrical Box
 
