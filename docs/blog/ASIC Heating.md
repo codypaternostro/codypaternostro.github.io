@@ -22,6 +22,10 @@ This post will document the process involved in planning, setup, and managing an
     4. [Electrical Box](#electrical-Box)
         1. [Electrical Box - Products used](#electrical-box-products)
 6. [Managing Heat](#managing-heat)
+    1. [Configuring Heat Direction](#configuring-heat-direction)
+        1. [HVAC Products Used](#hvac-products)
+    2. [Furnace Fans and Energy Reports](#energy-report)
+        1. [Wireless Products Used](#google-products)
 7. [Future Considerations](#future-considerations)
 
 ## Introduction 
@@ -134,5 +138,55 @@ To house the components and ensure their safe operation, a custom electrical box
 *The rails did require some length trimming.*
 
 ## Managing Heat
+
+The KS3M, with its hefty 3,200-watt power consumption, generates significant heat, necessitating efficient management strategies. For those in cooler climates, this presents an opportunity to either redistribute the heat within your home, potentially reducing heating costs, or vent it outside. Utilizing a fan shroud kit, you can employ an inline fan not only to cool the miner but also to channel the heat where it's needed most.
+
+Imagine your miner as a compact furnace equipped with its own fan system. You have the option to direct this heat outside through an exhaust vent or integrate it into your home's HVAC system. Specifically, the miner's warmth can be fed into the cold air return, leveraging the existing heating and cooling infrastructure. To circulate this heat throughout your home, you could use the furnace fan—without activating the furnace's heating element—allowing the miner's heat to be distributed evenly. Keeping the furnace fan running constantly ensures steady air movement. For a more sophisticated setup, introducing electronically controlled dampers could further streamline the heating process, paving the way for a fully automated system. More advanced options and setups are discussed in the future considerations section.
+
+*See future considerations for more details.*
+
+### Configuring Heat Direction
+
+This configuration example showcases how heat generated can be strategically redirected to an alternate space, such as a garage, offering a practical solution for managing excess warmth. Should the interior of the house become overly heated, the system allows for the adjustment of heat flow towards the garage. This setup exemplifies how you can prioritize different areas within your premises for heat distribution—first to spaces of higher importance, followed by those of lower priority, and finally, outside if necessary. This approach not only enhances comfort but also optimizes the use of generated heat according to your specific needs and preferences.
+
+![Heat-Direction](assets-large/heat-drection.JPEG)
+
+*Exhausting outside would be an easier solution but would not offer recylcing the heat from the miner*
+
+#### HVAC Products Used
+
+- <a target="_blank" href="https://www.amazon.com/gp/product/B07BQS1GB9/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=061ed0ecbc6af371a85b21eb556d4ee0&camp=1789&creative=9325">AC Infinity CLOUDLINE PRO T8</a>
+- <a target="_blank" href="https://www.amazon.com/gp/product/B0829DZB9W/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=33f0691ffdecf2263889323627d5c9e2&camp=1789&creative=9325">AC Infinity Inline Duct Fan Silencer</a>
+- <a target="_blank" href="https://www.amazon.com/gp/product/B07GTGY8PD/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=bddba7981412c00589499c39685b27d7&camp=1789&creative=9325">AC Infinity Air Carbon Filter</a>
+- <a target="_blank" href="https://www.amazon.com/VEVOR-Heavy-Duty-Protection-Ventilation-Insulation/dp/B0CS2DRSTG/ref=sr_1_3?crid=2XLJPTCELMNVJ&amp;keywords=insulated%252B8inch&amp;qid=1707693226&amp;sprefix=insulated%252B8inch%252B%252Caps%252C150&amp;sr=8-3&amp;th=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=d2996d6e5fb1e720d480398fece351d6&camp=1789&creative=9325">VEVOR 8 Inch Insulated Flexible Duct</a>
+- <a target="_blank" href="https://www.amazon.com/Imperial-Manufacturing-Furnace-Pipe-Galvanized/dp/B000BQQ1GU/ref=sr_1_2?crid=TQYHONTIUKFU&amp;keywords=8inch+tee&amp;qid=1707693293&amp;sprefix=8inch+te%252Caps%252C139&amp;sr=8-2&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=15501948a2b692b2b4765edd69d2c3ad&camp=1789&creative=9325">Imperial Manufacturing Furnace Pipe Full Flow Tee</a>
+- <a target="_blank" href="https://www.amazon.com/dp/B00E0Q4IZI?ref=ppx_yo2ov_dt_b_product_details&amp;th=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=52104ee18e4c83d0293734010658d381&camp=1789&creative=9325">HVAC FAMCO 8 Inch Butterfly Backdraft Damper for Heat Exchangers</a>
+- <a target="_blank" href="https://www.amazon.com/dp/B0BRD47Q67?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=096a71c9a3c146c999c8dac8156802fd&camp=1789&creative=9325">PATIKIL 8 Inch Duct Connector Flange</a>
+- <a target="_blank" href="https://www.amazon.com/PATIKIL-Adjustment-Airflow-Backdraft-Ventilation/dp/B0BRK728W3/ref=sr_1_7?crid=272I4R5O14PC4&amp;keywords=8%252Binch%252Bdamper&amp;qid=1707693419&amp;s=hi&amp;sprefix=8%252Binch%252Bdampe%252Ctools%252C178&amp;sr=1-7&amp;th=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=3bb73e604ff68c19447a5af7a5e67dd5&camp=1789&creative=9325">PATIKILHVAC Duct Manual Volume Damper Metal Adjustment Airflow Ducting Backdraft Damper Control for Air Ventilation System </a>
+- <a target="_blank" href="https://www.amazon.com/Handua-Steel-Damper-Supply-Diffuser/dp/B0C5ZKNJBB/ref=sr_1_23?crid=3PEYTI4FJH8OY&amp;keywords=8%252Binch%252Bcircular%252Bregister&amp;qid=1707693562&amp;s=hi&amp;sprefix=8%252Binch%252Bcircular%252Bregiste%252Ctools%252C150&amp;sr=1-23&amp;th=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=61594546607db41d2047fec2a953fd04&camp=1789&creative=9325">Steel Damper for Air Supply Diffuser</a>
+- <a target="_blank" href="https://www.amazon.com/Round-Ceiling-Diffuser-White-Dimensions/dp/B0116EY8T2/ref=sr_1_3?crid=3PEYTI4FJH8OY&amp;keywords=8+inch+circular+register&amp;qid=1707693500&amp;s=hi&amp;sprefix=8+inch+circular+registe%252Ctools%252C150&amp;sr=1-3&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=3b83b3c2081f8983ffd04b520c6680cc&camp=1789&creative=9325">HVAC Vent Duct Cover Round Ceiling Diffuser</a>
+- <a target="_blank" href="https://www.amazon.com/Aluminum-Insulation-Adhesive-Temperature-Ductwork/dp/B09BHWMSTD/ref=sr_1_3?crid=2Q6K138BD1L8V&amp;keywords=metal+tape+hvac&amp;qid=1707693606&amp;s=hi&amp;sprefix=metal+tape+hva%252Ctools%252C134&amp;sr=1-3&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=4ca7cbe6cdc0f3a95c267e52b5fd2d31&camp=1789&creative=9325">Metal High Temperature Heavy Duty HVAC Tape Aluminum Foil Tape </a>
+- <a target="_blank" href="https://www.amazon.com/Stainless-Washer-Drilling-Screws-Tapping/dp/B076BYJSTW/ref=sr_1_1_sspa?crid=1OXNRTYD5VYB0&amp;keywords=hvac+self+tappers&amp;qid=1707693670&amp;s=hi&amp;sprefix=hvac+self+tapper%252Ctools%252C147&amp;sr=1-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;psc=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=450b03615057885cad2cb952ceff7032&camp=1789&creative=9325">410 Stainless Steel Self Tapping TEK Screws</a>
+
+### Furnace Fans and Energy Reports
+
+Google Nest made controlling the Furnace Fans a breeze… 
+
+Integrating Google Home with Google Automation, alongside a Google Nest, has revolutionized the control of Furnace Fans, making it effortlessly manageable. Google's automation capabilities enable the straightforward addition of compatible devices to your network, all controllable via its app. It's even possible to craft scripts for comprehensive device management, providing tailored automation for heating solutions. In this scenario, devices such as the SONOFF 50 Amp remote (Smart Switch), a Miner Light (Shop Light), and a Thermostat (Server Room) illustrate the seamless integration and control achievable with this setup.
+
+![Google Automation Devices](assets/google-automation-devices.PNG)
+
+Using Google Nest to set a rule for continuous furnace fan usage. 
+
+![Fan Schedule](assets/fan-schedule.PNG)
+
+Observing furnace activity while leveraging a miner for supplemental heat reveals a remarkable reduction in furnace use, especially during the winter months. This innovative approach essentially minimizes traditional furnace reliance by utilizing the heat generated from mining operations. The result is a substantial decrease in furnace usage throughout the colder season, showcasing an efficient and cost-effective method of maintaining warmth within the home.
+
+![Energy History](assets/energy-history.PNG)
+
+#### Wireless Products Used
+- <a target="_blank" href="https://www.amazon.com/Nest-T3021US-Thermostat-Temperature-Generation/dp/B01MYE7VDD/ref=sr_1_4?crid=182IUUDGVGE9I&amp;keywords=google%252Bnest&amp;qid=1707693725&amp;s=hi&amp;sprefix=google%252Bnes%252Ctools%252C147&amp;sr=1-4&amp;th=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=d1b5fbd1912ce0eeaf3e9ae26b75b374&camp=1789&creative=9325">Google Nest Learning Thermostat Programmable Smart Thermostat for Home 3rd Generation</a>
+- <a target="_blank" href="https://www.amazon.com/Nest-T5000SF-Sensor-Thermostat/dp/B07DGWXCNN/ref=sr_1_1_pp?crid=3JVTH60JFQBH0&amp;keywords=google+thermostat&amp;qid=1707693811&amp;s=hi&amp;sprefix=gogole+thermo%252Ctools%252C175&amp;sr=1-1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=700c5b00b6428759e82e79f72d093d5e&camp=1789&creative=9325">Google Nest Temperature Sensor That Works with Nest Learning Thermostat</a>
+- <a target="_blank" href="https://www.amazon.com/TP-Link-Tapo-Compatible-Certified-P125M/dp/B0BNWGZ545/ref=sr_1_4?crid=3J61PV0HV8AN2&amp;keywords=tp%252Blink%252Bwifi%252Bplug&amp;qid=1707693853&amp;s=hi&amp;sprefix=tp%252Blink%252Bwifi%252Bpluig%252Ctools%252C139&amp;sr=1-4&amp;th=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=4ad346a8e1fd1fe0356ec3ff0a48227d&camp=1789&creative=9325">TP Link Tapo Matter Compatible Smart Plug Mini</a>
 
 ## Future Considerations
