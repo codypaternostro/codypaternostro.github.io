@@ -149,7 +149,7 @@ Imagine your miner as a compact furnace equipped with its own fan system. You ha
 
 This configuration example showcases how heat generated can be strategically redirected to an alternate space, such as a garage, offering a practical solution for managing excess warmth. Should the interior of the house become overly heated, the system allows for the adjustment of heat flow towards the garage. This setup exemplifies how you can prioritize different areas within your premises for heat distribution—first to spaces of higher importance, followed by those of lower priority, and finally, outside if necessary. This approach not only enhances comfort but also optimizes the use of generated heat according to your specific needs and preferences.
 
-![Heat-Direction](assets-large/heat-drection.JPEG)
+![Heat-Direction](assets-high-resolution/heat-drection.JPEG)
 
 *Exhausting outside would be an easier solution but would not offer recylcing the heat from the miner*
 
