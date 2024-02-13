@@ -7,35 +7,28 @@ This post will document the process involved in planning, setup, and managing an
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NFvkVF_3Z3E?si=Dd2QS4phLgK1I4l2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Power Plan](#power-plan)
+1. [Power Plan](#power-plan)
     1. [Single-Phase 240 Volt 50 Amp Circuit](#single-phase-circuit)
     2. [Power Infrastructure - Products Used](#power-products)
-3. [Configuring Miner through Web UI](#configuring-miner-through-web-ui)
+2. [Configuring Miner through Web UI](#configuring-miner-through-web-ui)
     1. [Setup](#setup)
     2. [Firmware](#firmware)
-4. [Installation of Silencing Kit](#installation-of-silencing-kit)
-5. [Remote Power Switch](#remote-power-switch)
+3. [Installation of Silencing Kit](#installation-of-silencing-kit)
+4. [Remote Power Switch](#remote-power-switch)
     1. [Why Use A Smart Switch?](#why-use-a-smart-switch)
     2. [Contactor](#contactor)
     3. [WiFi Relay](#wifi-relay)
     4. [Electrical Box](#electrical-Box)
         1. [Electrical Box - Products used](#electrical-box-products)
-6. [Managing Heat](#managing-heat)
+5. [Managing Heat](#managing-heat)
     1. [Configuring Heat Direction](#configuring-heat-direction)
         1. [HVAC Products Used](#hvac-products)
     2. [Furnace Fans and Energy Reports](#energy-report)
         1. [Wireless Products Used](#google-products)
-7. [Future Considerations](#future-considerations)
+6. [Future Considerations](#future-considerations)
 
-## Introduction 
-[Silencing Kit Installation](https://youtu.be/tIneY9daxnw?si=ualFuQoHbqlXtb2A)
-I decided to document the silencing kit installation by recording the process. 
-Feel free to comment to on anything provided in this blog at the bottom of the page!
 
-![Pic-Intro](assets/introduction.jpg)
-
-## Power Plan
+## **Power Plan**
 ### Single-Phase 240 Volt 50 Amp Circuit
 
 Utilizing an existing circuit was the cornerstone of formulating my power plan. The circuit in question was a 240 volt 50 amp setup, which implied that finding a suitable PDU would be challenging.
@@ -54,7 +47,9 @@ When devising a power plan with a specific budget in mind for a facility, it's c
 - <a target="_blank" href="https://www.amazon.com/gp/product/B09R6JM1VC/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;th=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=f00c7d69d2cd5068fea4916b72d2f3bc&camp=1789&creative=9325">Dracaena 2 Pack PDU UPS Power IEC Male C14 to Female C19 Adapter IEC Connector </a>
 
 *(adapters are not needed for this project but are useful to have)*
-## Configuring Miner through Web UI
+
+
+## **Configuring Miner through Web UI**
 ### Setup
 
 There is a wealth of information available for configuring the KS3M device for the first time. However, IceRiver does not list a manual specifically for the KS3M, although its configuration process is nearly identical to that of the KS3 and KS3L models. For your convenience, Zeus Mining has reformatted the provided PDF manual. You can find both resources below:
@@ -74,9 +69,19 @@ For those looking to download the latest firmware, please use the link below:
 2. Corrections for some common bugs.
 
 
-## Installation of Silencing Kit
 
-## Remote Power Switch
+## **Installation of Silencing Kit**
+
+I decided to document the silencing kit installation by recording the process. 
+Feel free to comment to on anything provided in this blog at the bottom of the page!
+
+[Silencing Kit Installation](https://youtu.be/tIneY9daxnw?si=ualFuQoHbqlXtb2A)
+
+![Pic-Intro](assets/introduction.jpg)
+
+
+
+## **Remote Power Switch**
 
 ![Smart-Switch](assets/smartswitchbox.jpg)
 
@@ -137,7 +142,10 @@ To house the components and ensure their safe operation, a custom electrical box
 
 *The rails did require some length trimming.*
 
-## Managing Heat
+
+
+
+## **Managing Heat**
 
 The KS3M, with its hefty 3,200-watt power consumption, generates significant heat, necessitating efficient management strategies. For those in cooler climates, this presents an opportunity to either redistribute the heat within your home, potentially reducing heating costs, or vent it outside. Utilizing a fan shroud kit, you can employ an inline fan not only to cool the miner but also to channel the heat where it's needed most.
 
@@ -189,4 +197,9 @@ Observing furnace activity while leveraging a miner for supplemental heat reveal
 - <a target="_blank" href="https://www.amazon.com/Nest-T5000SF-Sensor-Thermostat/dp/B07DGWXCNN/ref=sr_1_1_pp?crid=3JVTH60JFQBH0&amp;keywords=google+thermostat&amp;qid=1707693811&amp;s=hi&amp;sprefix=gogole+thermo%252Ctools%252C175&amp;sr=1-1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=700c5b00b6428759e82e79f72d093d5e&camp=1789&creative=9325">Google Nest Temperature Sensor That Works with Nest Learning Thermostat</a>
 - <a target="_blank" href="https://www.amazon.com/TP-Link-Tapo-Compatible-Certified-P125M/dp/B0BNWGZ545/ref=sr_1_4?crid=3J61PV0HV8AN2&amp;keywords=tp%252Blink%252Bwifi%252Bplug&amp;qid=1707693853&amp;s=hi&amp;sprefix=tp%252Blink%252Bwifi%252Bpluig%252Ctools%252C139&amp;sr=1-4&amp;th=1&_encoding=UTF8&tag=codypaternost-20&linkCode=ur2&linkId=4ad346a8e1fd1fe0356ec3ff0a48227d&camp=1789&creative=9325">TP Link Tapo Matter Compatible Smart Plug Mini</a>
 
-## Future Considerations
+
+
+
+## **Future Considerations**
+
+I would like to add more features such as electrical dampers and automations via Google Automate. 
