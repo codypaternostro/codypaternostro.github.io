@@ -1,8 +1,11 @@
 ---
 comments: true
+hide:
+  - navigation
 ---
 
-# Homepage
+# Home
+
 I'm Cody Paternostro, a professional in networking and cybersecurity, holding an Associate of Applied Science (AAS) degree in this field. My journey in the IT world is driven by a profound passion for technology and an unwavering commitment to staying ahead in the ever-evolving landscape of network security and system defenses.
 
 <!-- more -->
@@ -13,4 +16,7 @@ Beyond my technical capabilities, I have a deep-rooted interest in cryptocurrenc
 
 My blend of academic knowledge, practical experience, and diverse interests shapes me into a versatile professional in the field of networking and cybersecurity. My dedication to PowerShell scripting and cryptocurrency mining underscores my relentless pursuit of knowledge and my ambition to remain at the forefront of technological innovation.
 
+I am going to be utilzing this blog more to share exciting content related to :material-powershell:PowerShell! :saluting_face: 
 
+
+Thank you for stopping by!

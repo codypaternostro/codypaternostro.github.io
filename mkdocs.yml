@@ -11,7 +11,7 @@ copyright: |
 nav:
   - Home: index.md
   - Cody Paternostro's Blog:
-    - Blog Home: blog/index.md
+    - RemotePro: blog/RemotePro.md
     - ASIC Heating: blog/ASIC Heating.md
 
 theme:
@@ -71,6 +71,7 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - footnotes
+  - admonition
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
@@ -78,5 +79,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 
 
