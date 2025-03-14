@@ -28,7 +28,7 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
-      - run: pip install install mkdocs-resize-images
+      - run: pip install mkdocs-resize-images
       - run: node scripts/delete_deployments.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
