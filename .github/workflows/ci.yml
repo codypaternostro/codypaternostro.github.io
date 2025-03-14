@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '16'
       - run: npm install node-fetch@2
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           key: ${{ github.ref }}
           path: .cache
