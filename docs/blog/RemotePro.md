@@ -8,6 +8,8 @@ tags: ["MilestonePSTools", "Milestone XProtect", "GUI", "WPF", "PowerShell"]
 
 ## PowerShell: RemotePro
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/moApA0FYaVY?si=VLBRgrUNhhmpvMH-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Overview
 
 > Hello! My name is Cody Paternostro, and this is my project, RemotePro. It is an intriguing module that allows anyone familiar with MilestonePSTools and Milestone XProtect to interact through a graphical user interface (GUI). The idea for RemotePro originated when Joshua Hendricks, the developer behind the MilestonePSTools project, shared an interesting PowerShell script. This script wasn’t designed for automation; instead, it focused on user interaction by enabling the viewing of live and playback streams from a Video Management System (VMS). He utilized Windows Presentation Framework (WPF), which was new to me at the time. This journey has been a long one, providing an opportunity to create something usable by everyone with minimal effort.
